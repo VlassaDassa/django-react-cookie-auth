@@ -1,0 +1,101 @@
+
+
+body {
+    color: white;
+    font-size: 20px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+
+input,
+input:hover,
+input:focus {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+
+.container {
+    position: relative;
+    padding: 20px 50px;
+    width: 40%;
+    background: #1f1f1f;
+
+    border-radius: 5px;
+
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.formContainer,
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.field {
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(#1f1f1f, 0.9);
+}
+
+
+.username {
+    opacity: 0.5;
+}
+
+
+.authStatus {
+    margin: 0 auto;
+}
+
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+.sendBtn,
+.logoutBtn,
+.killAllSessionsBtn {
+    cursor: pointer;
+
+    margin-top: 10px;
+    color: rgba(#1f1f1f, 0.9);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 3px;
+    width: 30%;
+    padding: 10px 0;
+
+    transition: opacity ease-in-out 0.2s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.logoutBtn {
+    background: #f07676;
+}
+
+.killAllSessionsBtn {
+    background: #a7ff54;    
+}
+
+.error {
+    padding: 10px 5px;
+    border-radius: 5px;
+
+    background: rgba(#f47070, 0.9);
+    color: white;
+}

@@ -1,0 +1,78 @@
+# React frontend
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build files
+build/
+dist/
+
+# Bundle files
+*.js
+*.css
+*.map
+
+# Generated files
+*.rbc
+*.sass-cache
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.lock
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.svg
+*.pdf
+*.swp
+
+# Django backend
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+db.sqlite3
+*.sqlite3
+*.db
+*.bak
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Ignore local settings
+/local_settings.py
+
+# Ignore Django migration files
+**/migrations/*.py
+**/migrations/*.pyc
