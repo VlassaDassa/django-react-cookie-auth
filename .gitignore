@@ -18,11 +18,6 @@ pids
 build/
 dist/
 
-# Bundle files
-*.js
-*.css
-*.map
-
 # Generated files
 *.rbc
 *.sass-cache
